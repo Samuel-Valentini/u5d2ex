@@ -125,5 +125,10 @@ public class MenuConfig {
         return table;
     }
 
+    @Bean
+    public List<Table> tablesList(List<Table> tablesList) {
+        return tablesList;
+    }
+
 
 }
