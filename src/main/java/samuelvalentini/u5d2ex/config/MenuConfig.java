@@ -98,10 +98,10 @@ public class MenuConfig {
     }
 
 
-    @Bean
-    public Menu menu(List<Pizza> pizzas, List<Topping> toppings, List<Drink> drinks) {
-        return new Menu(pizzas, toppings, drinks);
-    }
+//    @Bean
+//    public Menu menu(List<Pizza> pizzas, List<Topping> toppings, List<Drink> drinks) {
+//        return new Menu(pizzas, toppings, drinks);
+//    }
 
     @Bean
     public Table table1() {
