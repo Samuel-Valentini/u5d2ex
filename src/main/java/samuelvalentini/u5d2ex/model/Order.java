@@ -26,6 +26,7 @@ public class Order {
         this.orderTime = LocalTime.now();
         this.orderNumber = ++counter;
         this.orderStatus = orderStatus;
+        table.setOccupied(true);
         this.table = table;
     }
 

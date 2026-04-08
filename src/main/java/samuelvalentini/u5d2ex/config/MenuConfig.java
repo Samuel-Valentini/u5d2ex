@@ -103,5 +103,27 @@ public class MenuConfig {
         return new Menu(pizzas, toppings, drinks);
     }
 
+    @Bean
+    public Table table1() {
+        Table table = new Table(1, 20);
+        table.setOccupied(false);
+        return table;
+    }
+
+    @Bean
+    public Table table2() {
+        Table table = new Table(2, 5);
+        table.setOccupied(false);
+        return table;
+    }
+
+
+    @Bean
+    public Table table3() {
+        Table table = new Table(3, 25);
+        table.setOccupied(false);
+        return table;
+    }
+
 
 }
